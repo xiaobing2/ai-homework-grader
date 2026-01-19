@@ -2,7 +2,7 @@
   "name": "ai-homework-grader",
   "entry": "./edge-function/grader.js",
   "installCommand": "npm install",
-  "buildCommand": "vue-tsc -b && vite build",
+  "buildCommand": "npm run build",
   "assets": {
     "directory": "./dist",
     "notFoundStrategy": "singlePageApplication"
