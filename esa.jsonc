@@ -1,5 +1,7 @@
 {
   // ESA Pages 部署配置
+  // 静态资源目录（HTML、CSS、图片等）
   "assets": "dist",
-  "function": "edge-function/grader.js"
+  // 边缘函数文件路径（构建后的主入口 JS 文件，支持通配符）
+  "function": "dist/assets/index-*.js"
 }
