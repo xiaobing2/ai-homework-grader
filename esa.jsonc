@@ -1,0 +1,5 @@
+{
+  // ESA Pages 部署配置
+  "assets": "dist",
+  "function": "edge-function/grader.js"
+}
